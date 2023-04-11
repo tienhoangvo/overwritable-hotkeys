@@ -124,6 +124,6 @@ As an auditor, I want to have availability of hot keys to make certain tasks qui
 8. Ability to create each kind of CT directly, without the step to click on the wrench icon first.
  - Doable, new shortcuts created should be differrent from the ones existing within the browser to avoid any possible conflicts down the road.
 
-- We can detect the inputed shortcut from users by listening to the `keydown` event attached to the `window` object, as long as the user is focusing on the webpage's content.
+- We can detect the inputted shortcut from users by listening to the `keydown` event attached to the `window` object, as long as the user is focusing on the webpage's content.
 
-The only matter is that which of the following areas the user is focusing on: browser window, browser tab, tab address bar, the webpage content.
+- The only issue is which of the following areas is focused: tab address bar (our custom shortcuts won't work in this case) , the webpage content.
