@@ -103,26 +103,26 @@
 As an auditor, I want to have availability of hot keys to make certain tasks quicker without switching between keyboard and mouse, including:
 
 1. Sign off short cut, e.g. Ctrl Alt P for preparer, Ctrl Alt R for reviewer.
- - Doable
+    - Doable
 
 2. Expand/collapse all short cut.
- - Doable
+    - Doable
 
 3. Jump from one cell to another inside a tab using direction keys on the keyboard, this should be applied to the following Trial Balance tabs: Account balance View, Mapping view, Financial statement view.
- - Doable, as long as the user is focusing on a cell.
+    - Doable, as long as the user is focusing on a cell.
 
 4. Instead of clicking on something for next, save or finish, have the ability to use the Enter key. For example, when uploading a TB, the Enter key works but not to click 'Finish' to upload
- - Doable, if the parent form is focused.
+    - Doable, if the parent form is focused.
 5. Ability to tick/untick checkboxes with the keyboard ('Space' Key).
- - Doable, while the user is focuing on the object.
+    - Doable, while the user is focuing on the object.
 
 6. Ability to move from the working paper view with the keyboard and when pressing on enter to open the working papers.
- - Doable
+    - Doable
 
 7. Ability to jump from one TQ to next ones using direction keys on the keyboard, Enter key here will help users to go from Yes, No or third option if any.
- - Doable
+    - Doable
 8. Ability to create each kind of CT directly, without the step to click on the wrench icon first.
- - Doable, new shortcuts created should be differrent from the ones existing within the browser to avoid any possible conflicts down the road.
+    - Doable, new shortcuts created should be differrent from the ones existing within the browser to avoid any possible conflicts down the road.
 
 - We can detect the inputted shortcut from users by listening to the `keydown` event attached to the `window` object, as long as the user is focusing on the webpage's content.
 
